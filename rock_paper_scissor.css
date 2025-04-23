@@ -1,0 +1,78 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+.main-container{
+    margin: 50px 200px;
+}
+
+.scores{
+    display: flex;
+    flex: 0 1 200px;
+    justify-content: space-around;
+}
+
+.computer-score, .player-score{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    margin: 10px 0px;
+    padding: 20px 50px;
+}
+
+.computer-score{
+    background-color: #0FFF50;
+}
+
+.player-score{
+    background-color: #e0ac69;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    font-size: 12px;
+  }
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.buttons{
+    margin: 48px 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+.button{
+    padding: 10px 5px;
+    flex: 0 1 200px;
+    display: block;
+    justify-items: center;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+    transform: scale(1.05); /* Increase size by 10% */
+}
+
+.result{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(190, 108, 108);
+}
